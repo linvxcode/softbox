@@ -6,19 +6,19 @@ export const NavigationItem = [
         title: 'Home'
     },
     {
-        src: '/allcharacter',
+        src: '#',
         title: 'About Us'
     },
     {
-        src: '/contact',
+        src: '#',
         title: 'Service'
     },
     {
-        src: '/contact',
+        src: '#',
         title: 'Testimonials'
     },
     {
-        src: '/contact',
+        src: '#',
         title: 'Contact Us'
     },
 ]

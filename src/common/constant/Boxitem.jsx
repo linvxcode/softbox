@@ -5,7 +5,7 @@
 export const Boxitem = 
 [
     {
-        style: '  absolute top-[-40%] left-[40%]',
+        style: '  absolute top-[-30%] left-[40%]',
         img: '/BOX1.png',
         size: 'w-[150px] h-auto'
 
@@ -17,13 +17,13 @@ export const Boxitem =
 
     },
     {
-        style: '  absolute top-[82%] left-[42%]',
+        style: '  absolute top-[73%] left-[36%]',
         img: '/BOX1.png',
         size: 'w-[110px] h-auto'
 
     },
     {
-        style: 'left-[10%] absolute top-[20%]',
+        style: 'left-[10%] absolute top-[40%]',
         img: '/BOX1.png',
         size: "w-[120px] h-auto "
 
@@ -53,9 +53,9 @@ export const Boxitem =
 
     },
     {
-        style: 'absolute top-[-120px] left-[65%]',
+        style: 'absolute top-[-80px] left-[65%]',
         img: '/BOX1.png',
-        size: 'w-[170px] h-auto '
+        size: 'w-[150px] h-auto '
 
     },
     {
@@ -66,7 +66,7 @@ export const Boxitem =
     {
         style: 'absolute top-[55%] left-[65%]',
         img: '/BOX1.png',
-        size: 'w-[170px] h-auto '
+        size: 'w-[140px] h-auto '
 
     },
     {

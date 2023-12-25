@@ -6,11 +6,11 @@ import Text from "@/common/components/element/Text";
 
 export default function Blog() {
   return (
-    <div className="h-auto max-w-[1500px] flex flex-col justify-center px-5 lg:px-20 mb-20 w-full">
+    <div className="h-auto max-w-[1500px] flex flex-col justify-center px-5 lg:px-10 mb-20 w-full">
       <div className="flex flex-col mb-10 items-start w-full">
-        <Text className="max-md:text-5xl" texts="BLOG" />
+        <Text className="max-md:text-5xl" texts="JOURNAL" />
         <h1 className="text-xl lg:w-[30%] py-5 text-neutral-300">
-        Latest blog written with love
+        Latest Journal written with love
         </h1>
       </div>
       <div className="grid md:grid-cols-2 w-full gap-5 ">

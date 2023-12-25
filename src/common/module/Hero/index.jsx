@@ -1,15 +1,10 @@
 'use client'
 import Button from "@/common/components/element/Button";
-import { useScroll, useSpring, useTransform } from "framer-motion";
 import React from "react";
 import Box from "./component/Box";
 
 export default function Hero() {
-  const { scrollY } = useScroll();
-  const y = useTransform(scrollY, [200, 800], [1, 1.6]);
-  const scale = useSpring(y, {
-    duration: 3,
-  });
+
   return (
     <div className="h-auto max-w-[1500px] flex justify-center relative w-full mb-32 mt-44 lg:mt-52">
       <div className="grid lg:grid-cols-2 place-content-between  w-full px-5 lg:px-10">

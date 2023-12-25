@@ -10,7 +10,7 @@ import Text from "@/common/components/element/Text";
 
 export default function Feedback() {
   return (
-    <div className="h-auto max-w-[1500px] px-5 lg:px-10 xl:px-20 pb-20">
+    <div className="h-auto max-w-[1500px] px-5 lg:px-10 pb-20">
       <Text texts="FEEDBACK" className="text-start max-md:text-5xl" />
 
       <ComponentTransition

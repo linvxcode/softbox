@@ -32,7 +32,7 @@ const Card = () => {
       </ComponentTransition>
       <ComponentTransition delay={0.1} className="w-full h-[250px]  md:basis-[65%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
         <Image 
-        src="/Card2.jpg"
+        src="/img.png"
         alt="Header Image"
         width={400}
         height={400}

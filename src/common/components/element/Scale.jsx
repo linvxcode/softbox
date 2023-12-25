@@ -4,24 +4,19 @@ import { motion } from "framer-motion";
 
 export const translateInViewVariant = {
   initial: {
-        opacity: 0,
-        scale: 0.1
-        // y: 90,
-    // height: '10px'
+        scale: 0
   },
   whileInview: {
-    opacity: 1,
     scale: 1
-    // y: 0,
-    // height: 'auto',
 
   },
 }
 
 
-const Scale = ({ children,className, delay }) => {
+const Scale = ({ children,className, delay , style}) => {
   return (
     <motion.div
+      style={style}
       initial="initial"
       whileInView="whileInview"
       variants={translateInViewVariant}
