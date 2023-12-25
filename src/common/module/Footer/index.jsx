@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="h-auto max-w-[1500px] flex justify-start flex-col px-5 lg:px-10 relative py-10  w-full">
       <div className="absolute  z-[-9] glowbg2 w-[140px] h-[140px] top-[10%] left-[20%]"></div>
-      <div className="absolute  z-[-9] glowbg3 w-[200px] h-[200px] top-[90%] left-[70%]"></div>
+      <div className="absolute  z-[-9] glowbg3 w-[200px] h-[200px] top-[50%] left-[20%] lg:left-[70%]"></div>
 
       <div className="bg-[#16161693] py-20  md:px-40 rounded-3xl flex-col flex justify-center items-center">
         <ComponentTransition className="w-full flex-col flex justify-center items-center">

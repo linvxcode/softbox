@@ -18,7 +18,7 @@ export default function Box() {
   return (
     <div className="lg:w-[90%] w-[90%] md:w-[40%] h-auto mt-52 lg:mt-10 mx-auto flex justify-start  lg:justify-center relative">
       {Boxitem.map((item, index) => (
-        <Scale delay={index * 0.1} key={index} className={`${item.style} `}  style={index === 2 ? {translateY: translate} : {scale}}>
+        <Scale delay={index * 0.01} key={index} className={`${item.style} `}  style={index === 2 ? {translateY: translate} : {scale}}>
             <Image
               className={item.size}
               src={item.img}
